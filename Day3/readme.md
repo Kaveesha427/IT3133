@@ -11,7 +11,8 @@ There are 2 main types:
 2.Class Components (less common now)
 </div>
 
-```function Welcome() {
+```js
+function Welcome() {
   return <h1>Hello, welcome to my app!</h1>;
 }```
 
@@ -24,7 +25,7 @@ Props = "Properties"
 They allow you to pass data from one component to another (like function arguments).
 
 
- ``` function Welcome(props) {
+ ```js function Welcome(props) {
   return <h1>Hello, {props.name}!</h1>;
 }
 
@@ -39,7 +40,8 @@ Here, name="Ann" is a prop.
 <div>
 💡 <h3>Props in Arrow Function Style:</h3>
 
-```const Welcome = ({ name }) => {
+```js
+const Welcome = ({ name }) => {
   return <h1>Hello, {name}!</h1>;
 };```
 </div>
