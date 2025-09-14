@@ -10,9 +10,10 @@ There are 2 main types:
 1.Functional Components
 2.Class Components (less common now)
 </div>
-function Welcome() {
+
+```function Welcome() {
   return <h1>Hello, welcome to my app!</h1>;
-}
+}```
 
 
 
@@ -23,14 +24,14 @@ Props = "Properties"
 They allow you to pass data from one component to another (like function arguments).
 
 
-  function Welcome(props) {
+ ``` function Welcome(props) {
   return <h1>Hello, {props.name}!</h1>;
 }
 
 // Using the component
-<Welcome name="Ann" />
+<Welcome name="Ann" />```
 
-</div>
+
 Output: Hello, Ann!
 
 Here, name="Ann" is a prop.
@@ -38,9 +39,9 @@ Here, name="Ann" is a prop.
 <div>
 💡 <h3>Props in Arrow Function Style:</h3>
 
-const Welcome = ({ name }) => {
+```const Welcome = ({ name }) => {
   return <h1>Hello, {name}!</h1>;
-};
+};```
 </div>
 
 Same result, just shorter syntax using destructuring.
