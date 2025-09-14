@@ -15,13 +15,13 @@ function Welcome() {
 }
 
 
-</div>
+
 <h2>✅ What are Props?</h2>
 
 Props = "Properties"
 
 They allow you to pass data from one component to another (like function arguments).
-<div>
+
 
   function Welcome(props) {
   return <h1>Hello, {props.name}!</h1>;
