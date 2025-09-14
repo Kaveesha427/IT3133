@@ -1,7 +1,7 @@
 <h1>🚀React Component and Props</h1>
 
 <div>
-✅ What are React Components?
+<h2>✅ What are React Components?</h2>
 
 In React, components are like building blocks of your app. You can think of them as reusable functions that return UI elements (HTML-like code called JSX).
 
@@ -10,17 +10,12 @@ There are 2 main types:
 1.Functional Components
 2.Class Components (less common now)
 
+<div>
 function Welcome() {
   return <h1>Hello, welcome to my app!</h1>;
 }
-
-✅ What are Props?
-
-Props = "Properties"
-
-They allow you to pass data from one component to another (like function arguments).
-
-  ✅ What are Props?
+</div>
+<h2>✅ What are Props?</h2>
 
 Props = "Properties"
 
@@ -39,33 +34,13 @@ Output: Hello, Ann!
 
 Here, name="Ann" is a prop.
 
-💡 Props in Arrow Function Style:
+<div>
+💡 <h3>Props in Arrow Function Style:</h3>
 
 const Welcome = ({ name }) => {
   return <h1>Hello, {name}!</h1>;
 };
-
+</div>
 
 Same result, just shorter syntax using destructuring.
 
-Full Example – Parent & Child Components
-// Parent Component
-function App() {
-  return (
-    <div>
-      <Welcome name="Ann" />
-      <Welcome name="John" />
-    </div>
-  );
-}
-
-// Child Component
-function Welcome(props) {
-  return <h2>Hello, {props.name}!</h2>;
-}
-
-
-🟢 Output:
-Hello, Ann!
-Hello, John!
-</div>
