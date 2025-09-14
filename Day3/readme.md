@@ -8,6 +8,8 @@ In React, components are like building blocks of your app. You can think of them
 There are 2 main types:
 <div>
 1.Functional Components
+</div>
+<div>
 2.Class Components (less common now)
 </div>
 
