@@ -21,5 +21,8 @@ Props = "Properties"
 
 They allow you to pass data from one component to another (like function arguments).
 
+<h2>Output</h2>
+<img width="1912" height="965" alt="1" src="https://github.com/user-attachments/assets/78f0b6aa-1a1c-4bc3-a193-6cef62bf4c06" />
+
 
 
