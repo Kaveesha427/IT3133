@@ -10,25 +10,25 @@
 <div>
   <h3>2. How state changes work</h3>
 
-#When you call the setter function (e.g., setCount(5)), React:
+-When you call the setter function (e.g., setCount(5)), React:
 
 Updates the state value.
 
 Marks the component for re-render.
 
-#React then re-renders the component with the new state.
+-React then re-renders the component with the new state.
 
-#Only the component with state change is re-rendered (not the whole app).
+-Only the component with state change is re-rendered (not the whole app).
 </div>
 
 <div>
   <h3>3. Key points about state changes</h3>
 
-#Do not modify state directly (e.g., count = 5 → ❌). Always use the setter function (setCount).
+-Do not modify state directly (e.g., count = 5 → ❌). Always use the setter function (setCount).
 
-#State updates can be asynchronous.
+-State updates can be asynchronous.
 
-#You can have multiple states in one component:
+-You can have multiple states in one component:
 </div>
 
 <h2><b>Output</b></h2>
