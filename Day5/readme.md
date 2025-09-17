@@ -2,9 +2,9 @@
 <div>
   <h3>1.What is state in React?</h3>
 
-#State is a JavaScript object that holds data that can change over time in a component.
+-State is a JavaScript object that holds data that can change over time in a component.
 
-#Changing the state updates the component automatically and re-renders it on the screen.
+-Changing the state updates the component automatically and re-renders it on the screen.
 </div>
 
 <div>
